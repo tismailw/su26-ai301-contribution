@@ -19,6 +19,7 @@ The reason why this issue intrested me was because the work behind it was more f
 The reason for this is because I am more familiar with working with the backend, and I wanted to work and learn more regarding frontend matters to balance out my skillset and learn more about a field I'm not as familar with. 
 
 I was also intrested in the tooling behind the issue, a react docker tool which is a static analysis tool which flags any architectural issues.  
+
 ---
 
 ## Understanding the Issue
@@ -27,21 +28,25 @@ I was also intrested in the tooling behind the issue, a react docker tool which 
 
 [In your own words, what's broken or missing?]
 
+The goal of resolving the issue is to implement clean code in the codebase, by replacing generic variable names to somehting more descriptive. 
 
 ### Expected Behavior
 
 [What should happen?]
 
+N/A, changes will not affect behavior. 
 
 ### Current Behavior
 
 [What actually happens?]
 
+N/A, changes will not affect behavior. 
 
 ### Affected Components
 
 [Which parts of the codebase are involved?]
 
+The affected components are variable names across 11 different files in the codebase, https://github.com/wso2/identity-apps/tree/b2a8f16f154cf4ada332b7d624ba4b0ad7629518.
 
 ---
 
@@ -53,15 +58,15 @@ I was also intrested in the tooling behind the issue, a react docker tool which 
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Clone the forked repo
+2. Look through each specified .tsx file
+3. Observed that each variable name isn't descriptive
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
+- **Commit showing reproduction:** https://github.com/tismailw/identity-apps
 - **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **My findings:** Variable names were the same and were not descriptive. Additionally, the github issue was listed in a another repo while the codebase that needed to be changed was in another. 
 
 ---
 
